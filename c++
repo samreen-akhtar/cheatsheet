@@ -24,6 +24,26 @@ TOKEN
      Special Symbols – They have some special meaning and cannot be used for another purpose; eg: [] () {}, ; * = # 
      Operators – Who perform operations on the operand
 
+AUTO KEYWORD
+     The auto keyword may be used to declare a variable with a complex type in a straightforward fashion.
+     You can use auto to declare a variable if the initialization phrase contains templates, pointers to functions, references to members, etc. 
+     With type inference capabilities, we can spend less time having to write out things the compiler already knows.
+     As all the types are deduced in the compiler phase only, the time for compilation increases slightly but it does not affect the runtime of the program. 
+     
+NAMESPACE
+     Namespaces enable us to organize named items that would otherwise have global scope into smaller scopes, allowing us to give them namespace scope. 
+     This permits program parts to be organized into distinct logical scopes with names. The namespace provides a place to define or declare identifiers 
+     such as variables, methods, and classes. 
+     
+     
+VOID KEYWORD
+     The void keyword, when used as a function return type, indicates that the function does not return a value. 
+     When used as a parameter list for a function, void indicates that the function takes no parameters. 
+     Non-Value Returning functions are also known as void functions. They’re called “void” since they’re not designed to return anything. True, but only partially.
+     We can’t return values from void functions, but we can certainly return something. 
+     Although void functions have no return type, they can return values.
+     
+     
 SWITCH
      A switch statement allows you to test an expression against a variety of cases. 
      If a match is found, the code within begins to run. A case can be ended with the break keyword. When no case matches, default is used.
