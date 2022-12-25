@@ -130,7 +130,35 @@ OBJECT
        An object is an instance of a class that encapsulates its data and member functions. The above code creates an instance of the class City named Mumbai.
 
 
+FUNCTION OVERLOADING
+     Functional Overloading is a property where two or more functions can share the name but not the same list of arguments.
+     It is basically defining a function in numerous ways such that there are many ways to call it or in simple terms you have multiple versions of the same function.
+     Parameterized Functions are a good example of Function Overloading as just by changing the argument or parameter of a function you make it useful for different purposes.
+     
+     Example of Function Overloading:
 
+     int GFG(int X, int Y);
+     int GFG(char X, char Y);
+     
+     Upon a keen observation, the name remains the same whereas the order, data type, and entire list of arguments change. 
+     There are certain rules to be followed while overloading a function in C++. Let us have a look at some of them:
+
+          The functions must have the same name
+          The functions must have different types of parameters. 
+          The functions must have a different set of parameters.
+          The functions must have a different sequence of parameters. 
+     
+     
+OPERATOR OVERLOADING
+     It is basically giving practice of giving a special meaning to the existing meaning of an operator or in simple terms redefining the pre-redefined meaning.
+     Polymorphism is a good example of an operator overloading as an object of allocations class can be used and called by different classes for different purposes.
+
+     Example of Operator Overloading:
+
+     int GFG() = X() + Y();
+     int GFG() = X() – Y();
+     
+     
 FILE HANDLING
       File handling refers to reading and writing data in files. C++ provides us with functions that allow us to do so. 
       
