@@ -14,6 +14,15 @@ COMMENT
      //single line
      /*multi line*/
 
+TOKEN
+     A token is the smallest individual element of a program that is understood by a compiler. A token comprises the following:
+
+     Keywords – That contain a special meaning to the compiler
+     Identifiers – That hold a unique value/identity 
+     Constants – That never change their value throughout the program 
+     Strings – That contains the homogenous sequence of data 
+     Special Symbols – They have some special meaning and cannot be used for another purpose; eg: [] () {}, ; * = # 
+     Operators – Who perform operations on the operand
 
 SWITCH
      A switch statement allows you to test an expression against a variety of cases. 
